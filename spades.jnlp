@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="1.0+" codebase="https://malcolmc-24.github.io/portfolio">
+<jnlp spec="1.0+" codebase="https://malcolmc-24.github.io/portfolio/">
     <information>
         <title>Spades Application</title>
-        <vendor>Your Vendor</vendor>
-        <homepage href="https://malcolmc-24.github.io/portfolio"/>
+        <vendor>malcolmc</vendor>
+        <homepage href="https://malcolmc-24.github.io/portfolio/"/>
         <description>Spades Game</description>
         <offline-allowed/>
     </information>
