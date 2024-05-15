@@ -3,76 +3,9 @@
 
 <head>
     <title>Malcolm Carroll | Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-
-        .header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-
-        .content {
-            margin: 15px;
-        }
-
-        .section {
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        .section h2 {
-            color: #333;
-        }
-
-        .section p {
-            color: #666;
-        }
-
-        .section .sub-section {
-            margin-bottom: 10px;
-        }
-
-        .section .sub-section h3 {
-            color: #555;
-        }
-
-        .section .sub-section p {
-            color: #888;
-        }
-
-        .tablink {
-            background-color: #555;
-            color: white;
-            float: left;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 14px 16px;
-            font-size: 17px;
-            width: 25%;
-        }
-
-        .tablink:hover {
-            background-color: #777;
-        }
-
-        .info {
-            color: #888;
-            display: none;
-            padding: 50px;
-            text-align: center;
-            background-color: #f0f0f0;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
+<a href="https://malcolmc-24.github.io/portfolio/spades.jnlp">Launch Spades Game</a>
 <body>
     <div class="header">
         <h1>Malcolm Carroll</h1>
@@ -81,8 +14,8 @@
     <div class="content">
         <div class="section">
             <h2>About Me</h2>
-            <p>I am an aspiring software engineer with a passion for technology and problem-solving. My experience
-                includes delivering high-quality software solutions...</p>
+            <p>I am an aspiring software engineer with a passion for technology and problem-solving. Below you can view projects I have worked on, my various skills I have, and experience
+                related to the software development field</p>
         </div>
         <div class="section">
             <h2>Experience</h2>
@@ -97,10 +30,51 @@
                 <button class="tablink" onclick="openProjects('Project4', this)">Python</button>
 
                 <div id="Project1" class="projects">
-                    <p>Information about C# project goes here...</p>
+                    <p>
+                        <strong>Hardware Inventory System: A Case Study</strong>
+                        <br>
+                        During my tenure at Bealls Inc., I spearheaded the development of a robust Hardware Inventory System. The primary objective was to streamline hardware tracking across the entire organization, optimizing inventory management and operational efficiency.
+                    </p>
+                    <p>
+                        <strong>Key Components of the Project:</strong>
+                        <br>
+                        <em>Database Infrastructure:</em> I designed and implemented a Microsoft SQL Server database to store essential hardware information. This centralized repository allowed seamless data retrieval and updates. The database schema accommodated details such as hardware specifications, serial numbers, locations, and maintenance history.
+                        <br>
+                        <br>
+                        <em>Web Application and API:</em> Leveraging C# and Blazor within Visual Studio, I crafted a web application that served as the user interface for managing hardware assets. The API layer facilitated communication between the frontend and the database, ensuring smooth data flow. Rigorous testing using Swagger validated the system’s functionality and reliability.
+                        <br>
+                        <br>
+                        <em>Frontend Experience:</em> To enhance user productivity, I employed Radzen to style the frontend. The visual interface provided intuitive access to hardware data. There were different security levels for diefferent users meaning access to certain functions were limited. Users could view inventory details, track hardware movements, and initiate many data requests effortlessly even having the ability to export as spreadsheet or csv.
+                        <br>
+                        <br>
+                        <em>Greenlight for Q&A Testing:</em> As I transitioned from Bealls, the project received approval for quality assurance (Q&A) testing.
+                    </p>
+                    
                 </div>
                 <div id="Project2" class="projects">
-                    <p>Information about Java project goes here...</p>
+                    <p>
+                        <strong>ReelReviews</strong>
+                        <br>
+                        This is a web app designed to display information about movies. Users can view movie details and interact with them in various ways, such as leaving reviews or saving movies to their favorites list. This project is stored on GitHub as it was a group but is currently private for security reasons. I am actively working on adjusting it to be viewable as public. If you're curious, you can find the documentation<a href="https://yourdomain.sharepoint.com/sites/yoursite/_layouts/download.aspx?SourceUrl=RD%20Template-50d71d-eafb6a.docx" download> here</a>
+                        .
+                        <br>
+                        The key features include:
+                        <ul>
+                            <li><em>Movie Display:</em> Movies are presented in a scrollable list, allowing users to explore all available titles.</li>
+                            <li><em>Data Sources:</em> Movie data is pulled from the Movie Database API and stored in a Google Firebase cloud database.</li>
+                            <li><em>Endpoint Selection:</em> We chose the "Now Playing" endpoint to display current movies to users.</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Technical Details:</strong>
+                        <br>
+                        <em>Frontend:</em>The app's frontend utilizes HTML, CSS, and JavaScript to present movie information to users.  I did not work on the frontend on this project however I assisted my group members when required.
+                        <br>
+                        <em>Backend:</em> Java is used to connect to the Movie Database API, while a Google Firebase cloud database stores movie details. User interactions are also stored for future data persistence. This is the section I was responsible for as I had previous experience with api's and databases.
+                        <br>
+                        <em>User Authentication:</em> User interactions are tied to their login accounts, implemented using Google Firebase Authentication. I assisted with user aithentication as I had done similiar work in C#.
+                    </p>
+                    
                 </div>
                 <div id="Project3" class="projects">
                     <p>Information about C/C++ project goes here...</p>
@@ -151,7 +125,7 @@
 
     </div>
     <div class="section">
-        <h2>Contact</h2>
+        <h2>Contact and Resume</h2>
         <p>Email: malcolmt2002@gmail.com | Phone: 954-243-2543</p>
     </div>
     </div>

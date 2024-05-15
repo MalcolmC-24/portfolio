@@ -29,7 +29,7 @@ function openSkills(infoName, elmnt) {
         info[i].style.display = "none";
     }
 
-    for (i = 0; i < info.length; i++) {
+    for (i = 4; i < tablinks.length; i++) {
         if (tablinks[i] === elmnt && tablinks[i].style.backgroundColor === "rgb(136, 136, 136)") {
             tablinks[i].style.backgroundColor = "#555";
             return;

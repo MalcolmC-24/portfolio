@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=TrickDecider
+comment1.params=one\ two\ three\ four
+comment1.target=TrickDecider(SpadesPlayer,\ SpadesPlayer,\ SpadesPlayer,\ SpadesPlayer)
+comment2.params=card
+comment2.target=void\ addCardToPile(Cards)
+comment3.params=
+comment3.target=int\ determineTrickWinner()
+comment4.params=
+comment4.target=void\ adjustCardValues()
+comment5.params=
+comment5.target=int\ determineLeadingSuit()
+comment6.params=
+comment6.target=java.util.ArrayList\ getCardsPlayed()
+numComments=7

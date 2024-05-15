@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CardDrawing
+comment1.params=card
+comment1.target=CardDrawing(Cards)
+comment2.params=
+comment2.target=int\ getSuit()
+comment3.params=g
+comment3.target=void\ paintComponent(java.awt.Graphics)
+comment4.params=e
+comment4.target=void\ mouseReleased(java.awt.event.MouseEvent)
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=6
