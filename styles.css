@@ -40,7 +40,10 @@ body {
 
 .sub-section {
     margin-bottom: 20px;
-    text-align: left;
+    text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 20px
 }
 
 .sub-section h3 {
@@ -51,6 +54,7 @@ body {
 }
 
 .sub-section p {
+    white-space: normal;
     font-size: 18px;
     line-height: 1.5;
     color: #333;
@@ -68,24 +72,29 @@ body {
 }
 
 .tablink {
-    background-color: gold;
-    border: 2px solid;
-    border-color: #04AA6D;
-    color: white;
-    float: left;
+    background-color: #04AA6D;
+    flex: 0 0 auto;
     border: none;
+    color: rgb(255, 255, 255);
+    float: center;
     outline: none;
     cursor: pointer;
     padding: 15px 16px;
     font-size: 17px;
-    width: 25%;
+    width: 20%;
     border-radius: 15px 15px 15px 15px;
-    opacity: 0.6;
-    transition: 0.3s;
+    box-shadow: 0 9px #999;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
 }
 
-.tablink:hover {
-    opacity: 1;
+.tablink:hover, .tablink:active, .tablink:focus {
+    background-color: #3e8e41;
+}
+
+.tablink:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 .projects {
@@ -102,4 +111,21 @@ body {
     padding: 50px;
     text-align: center;
     background-color: #f0f0f0;
+}
+
+.download {
+    display: inline-block;
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.download:hover {
+    background-color: #3e8e41;
 }
