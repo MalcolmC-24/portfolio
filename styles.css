@@ -19,10 +19,14 @@ body {
 .section {
     margin-bottom: 40px;
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #E3DFD4;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section:hover {
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1);
 }
 
 .section h2 {
@@ -88,7 +92,9 @@ body {
     margin-right: 10px;
 }
 
-.tablink:hover, .tablink:active, .tablink:focus {
+.tablink:hover,
+.tablink:active,
+.tablink:focus {
     background-color: #3e8e41;
 }
 
@@ -98,19 +104,23 @@ body {
 }
 
 .projects {
-    color: #888;
+    color: #333;
     display: none;
     padding: 50px;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #E3DFD4;
 }
 
 .skills {
-    color: #888;
+    color: #333;
     display: none;
     padding: 50px;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #E3DFD4;
+}
+
+.skills p {
+    font-size: 20px;
 }
 
 .download {

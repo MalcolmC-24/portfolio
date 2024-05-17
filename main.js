@@ -37,7 +37,7 @@ function openSkills(infoName, elmnt) {
             t = true;
         }
     }
- 
+
     for (i = 0; i < info.length; i++) {
         tablinks[i].style.backgroundColor = "#04AA6D";
         info[i].style.display = "none";
