@@ -29,18 +29,17 @@ function openSkills(infoName, elmnt) {
     info = document.getElementsByClassName("skills");
     tablinks = document.getElementsByClassName("tablink");
     t = false;
-
-    for (i = 4; i < tablinks.length; i++) {
+    for (i = 4; i < info.length + 4; i++) {
         if (tablinks[i] === elmnt && document.getElementById(infoName).style.display === "block") {
-            info[i].style.display = "none";
+            info[i-4].style.display = "none";
             elmnt.style.backgroundColor = "#04AA6D"; // Reset the button color
             t = true;
         }
     }
 
-    for (i = 0; i < info.length; i++) {
+    for (i = 4; i < info.length+4; i++) {
         tablinks[i].style.backgroundColor = "#04AA6D";
-        info[i].style.display = "none";
+        info[i-4].style.display = "none";
     }
 
     if (t) {
