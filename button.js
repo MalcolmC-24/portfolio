@@ -50,3 +50,4 @@ function openSkills(infoName, elmnt) {
     elmnt.style.backgroundColor = "#3e8e41"; // Set the button color when pressed
 
 }
+
